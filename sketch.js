@@ -5,10 +5,10 @@ var sum = 0;
 
 function setup() {
   createCanvas(400,400);
-  for (var i=0; i<weight.lenght; i+1){
-    sum = sum+weight[i];
+  for(var i = 0; i<weight.length; i++){
+    sum = sum + weight[i];
   }
-  var prom = sum/weight.lenght;
+  var prom = sum/weight.length;
   console.log(prom);
 }
 
